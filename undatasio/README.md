@@ -145,7 +145,7 @@ if client.parse_files(task_id=first_task_id, file_ids=[file_id]):
         -  ``file_id (str)``: The ID of the file.
         - Returns: A list of strings, where each string is a block of parsed text, or None on failure.
 
-* **``get_download_url(self, task_id: str, file_ids: List[str]) -> Optional[str]``**
+* **``download_parsed_results(self, task_id: str, file_ids: List[str]) -> Optional[str]``**
 
     - 🔗 Requests a download URL for a ZIP archive containing the full parsing results.
         -  ``task_id (str)``: The ID of the task.
