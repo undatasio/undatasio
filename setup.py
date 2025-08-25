@@ -20,7 +20,7 @@ def get_version():
     返回:
       版本号字符串, 如果找不到则返回 '0.0.0'.
     """
-    init_py = os.path.join(package, 'undatasio/__init__.py')
+    init_py = os.path.join(package, '__init__.py')
     with open(init_py, 'r') as f:
         content = f.read()
 
